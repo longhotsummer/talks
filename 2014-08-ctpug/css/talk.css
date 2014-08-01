@@ -1,0 +1,9 @@
+.reveal section img.plain {
+  border: 0px;
+  background-color: white;
+  box-shadow: none;
+}
+
+.reveal .backgrounds .slide-background[style*='background-image'] {
+  opacity: 0.1;
+}
