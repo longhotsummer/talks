@@ -1,3 +1,8 @@
+.reveal i.fa {
+  font-family: 'FontAwesome';
+  font-style: normal;
+}
+
 .reveal section img.plain {
   border: 0px;
   background-color: white;
@@ -6,6 +11,15 @@
 
 .reveal .backgrounds .slide-background[style*='background-image'] {
   opacity: 0.1;
+}
+
+.opaque-bg .reveal .backgrounds .slide-background[style*='background-image'] {
+  opacity: 1.0;
+}
+
+ul.unstyled li,
+ol.unstyled li {
+  list-style: none
 }
 
 
