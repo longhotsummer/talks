@@ -89,11 +89,40 @@
         <section data-background="media/newspapers.jpg">
           <h1>Dexter</h1>
           <h2>and the 2014 National Elections</h2>
+          <p>
+          <a href="http://elections2014.mediamonitoringafrica.org/">elections2014.mediamonitoringafrica.org</a>
+          </p>
+				</section>
+
+        <section data-background="media/newspapers.jpg" style="text-align: left">
+          <div class="column-half">
+            <h3>Was the coverage...<h3>
+          </div>
+          <div class="column-half">
+            <h3>balanced &amp; fair?</h3>
+            <h3>comprehensive?</h3>
+            <h3>people-centered?</h3>
+          </div>
 				</section>
 
         <section data-background="media/newspapers.jpg">
-          <h1>Party media coverage</h1>
+          <h2>Party media coverage</h2>
           <div id="chart-party-coverage" width="400" height="400"></div>
+				</section>
+
+        <section data-background="media/newspapers.jpg">
+          <h2>Party media coverage</h2>
+          <div id="chart-small-party-coverage" width="400" height="400"></div>
+				</section>
+
+        <section data-background="media/newspapers.jpg">
+          <h2>Who's quoted?</h2>
+          <div id="chart-quoted-people" width="400" height="400"></div>
+				</section>
+
+        <section data-background="media/newspapers.jpg">
+          <h2>Who's quoted?</h2>
+          <div id="chart-quoted-gender" width="400" height="400"></div>
 				</section>
 
 				<section>
@@ -371,19 +400,46 @@ function linkify( selector ) {
           animation: false,
           plotShadow: false,
         },
+        credits: {
+          enabled: false
+        },
         title: {
           text: null,
+        },
+        xAxis: {
+          labels: {
+            style: {
+              fontSize: '1.5em',
+            },
+          },
+        },
+        yAxis: {
+          labels: {
+            style: {
+              fontSize: '1.5em',
+            },
+          },
+          title: {
+            text: null,
+          },
         },
         plotOptions: {
           series: {
             animation: false,
           },
           pie: {
-            allowPointSelect: true,
-            cursor: 'pointer',
+            dataLabels: {
+              format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+              style: {
+                fontSize: '1.5em',
+                color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+              }
+            },
+          },
+          bar: {
             dataLabels: {
               enabled: true,
-              format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+              format: '{point.y:.2f} %',
               style: {
                 fontSize: '1.5em',
                 color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
@@ -392,27 +448,86 @@ function linkify( selector ) {
           },
         },
         tooltip: {
-          pointFormat: '<b>{point.percentage:.1f}%</b>'
+          enabled: false,
         },
       });
 
-      Reveal.addEventListener('slidechanged', function(event) {
-        if ($('#chart-party-coverage', event.currentSlide).length > 0) {
-          $('#chart-party-coverage').highcharts({
-            series: [{
-                type: 'pie',
-                name: 'Party coverage',
-                data: [
-                  ['ANC', 38.2],
-                  ['DA', 25.3],
-                  ['EFF', 13.4],
-                  ['COPE', 4.1],
-                  ['AGANG', 3.1],
-                  ['Other Parties', 15.9],
-                ]
-            }]
-          });
-        }
+      Reveal.addEventListener('ready', function(event) {
+        $('#chart-party-coverage').highcharts({
+          chart: {
+            type: 'bar',
+          },
+          xAxis: {
+            categories: ['ANC', 'DA', 'EFF'],
+          },
+          series: [
+            {
+              name: 'Votes received',
+              data: [62.15, 22.23, 6.53]
+            },
+            {
+              name: 'Media coverage',
+              data: [38.2, 25.3, 13.4]
+            }
+          ]
+        });
+
+        $('#chart-small-party-coverage').highcharts({
+          chart: {
+            type: 'bar',
+          },
+          xAxis: {
+            categories: ['COPE', 'AGANG'],
+          },
+          yAxis: {
+            labels: {
+              enabled: false
+            },
+          },
+          series: [
+            {
+              name: 'Votes received',
+              data: [0.67, 0.28],
+            },
+            {
+              name: 'Media coverage',
+              data: [4, 3],
+            }
+          ]
+        });
+
+        $('#chart-quoted-people').highcharts({
+          chart: {
+            type: 'pie',
+          },
+          series: [
+            {
+              name: 'Quotations',
+              data: [
+                ['Jacob Zuma', 8.15],
+                ['Helen Zille', 7.46],
+                ['Julius Malema', 6.62],
+                ['Mmusi Maimane', 4.63],
+                ['Other people', 73.14]
+              ]
+            }
+          ]
+        });
+
+        $('#chart-quoted-gender').highcharts({
+          chart: {
+            type: 'pie',
+          },
+          series: [
+            {
+              name: 'Quotations',
+              data: [
+                ['Male', 74.8],
+                ['Female', 25.2],
+              ]
+            }
+          ]
+        });
       });
 		</script>
 
