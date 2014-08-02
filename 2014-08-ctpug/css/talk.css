@@ -13,8 +13,8 @@
   opacity: 0.1;
 }
 
-.opaque-bg .reveal .backgrounds .slide-background[style*='background-image'] {
-  opacity: 1.0;
+.print-pdf .slide-background[style*='background-image'] {
+  display: none
 }
 
 ul.unstyled li,
