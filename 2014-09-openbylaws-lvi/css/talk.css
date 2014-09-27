@@ -1,0 +1,75 @@
+.reveal i.fa {
+  font-family: 'FontAwesome';
+  font-style: normal;
+}
+
+.reveal section img.plain {
+  border: 0px;
+  box-shadow: none;
+}
+
+.reveal .backgrounds .slide-background[style*='background-image'] {
+  opacity: 0.1;
+}
+
+.print-pdf .slide-background[style*='background-image'] {
+  display: none
+}
+
+ul.unstyled li,
+ol.unstyled li {
+  list-style: none
+}
+
+
+/* columns */
+.column-row {
+    clear: both;
+}
+.column-full,
+.column-half,
+.column-third,
+.column-two-thirds,
+.column-quarter,
+.column-three-quarters,
+.column-golden-wide,
+.column-golden-narrow {
+    float: left;
+    margin: 0 2% 0 0;
+}
+.header-for-columns {
+    margin: 0 2% 1em 0;
+}
+.column-full {
+    width: 98%;
+}
+.column-half {
+    width: 48%;
+}
+.column-third {
+    width: 31%;
+}
+.column-two-thirds {
+    width: 65%;
+}
+.column-quarter {
+    width: 23%;
+}
+.column-three-quarters {
+    width: 73%;
+}
+.column-golden-wide {
+    width: 58%;
+}
+.column-golden-narrow {
+    width: 38%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* talk specific stuff */
+
+.reveal .contact-details {
+}
