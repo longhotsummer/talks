@@ -1,0 +1,114 @@
+.an-act, .an-preamble, .an-chapter, .an-part, .an-section, .an-subsection, .an-blockList {
+  display: block; }
+
+.an-container {
+  padding-left: 20px;
+  margin-top: 0px;
+  border-left: 1px solid #ccc;
+  text-align: justify;
+  line-height: 1.5em;
+  /* lists (mostly used in definitions) */
+  /* blocklists */
+  /* schedules */ }
+  @media (max-width: 768px) {
+    .an-container {
+      padding-left: 0px;
+      border-left-width: 0px; } }
+  @media print {
+    .an-container {
+      padding-left: 0px;
+      border-left-width: 0px; } }
+  .an-container .title {
+    text-align: center;
+    margin-bottom: 2em; }
+    .an-container .title h2 {
+      font-size: 18px; }
+  .an-container h1 {
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px; }
+  .an-container h2, .an-container h3 {
+    font-size: 16px;
+    line-height: 20px; }
+  .an-container h4 {
+    font-size: 14px; }
+  .an-container .an-subheading {
+    text-align: center;
+    font-style: italic;
+    display: block; }
+  .an-container .published {
+    font-style: italic; }
+  .an-container .an-def {
+    font-weight: bold; }
+  .an-container .popover-content .an-term {
+    border-bottom-width: 0px; }
+  .an-container .an-preamble {
+    margin-bottom: 4em; }
+    .an-container .an-preamble .an-p {
+      display: block;
+      margin-bottom: 1em; }
+  .an-container .an-chapter, .an-container .an-part {
+    margin-bottom: 4em; }
+  .an-container .an-section {
+    margin-bottom: 2em; }
+  .an-container .an-subsection {
+    margin-left: 3em;
+    margin-bottom: 1em; }
+    .an-container .an-subsection > .an-num {
+      display: block;
+      float: left;
+      margin-left: -3em; }
+  .an-container .an-content > .an-p {
+    display: block;
+    margin-bottom: 1em; }
+  .an-container #definitions .an-subsection, .an-container .term-definition .an-subsection {
+    margin-left: 0px; }
+  .an-container .an-list > .an-intro {
+    display: block;
+    margin-bottom: 1em; }
+  .an-container .an-list > .an-point {
+    display: block;
+    margin-left: 3em;
+    margin-bottom: 1em; }
+    .an-container .an-list > .an-point > .an-num {
+      display: block;
+      float: left;
+      margin-left: -3em; }
+  .an-container .an-blockList .an-listIntroduction {
+    display: block;
+    margin-bottom: 1em; }
+  .an-container .an-blockList > .an-item {
+    display: block;
+    margin-left: 3em;
+    margin-bottom: 1em; }
+    .an-container .an-blockList > .an-item > .an-num {
+      display: block;
+      float: left;
+      margin-left: -3em; }
+  .an-container table {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd; }
+    .an-container table th,
+    .an-container table td {
+      border-left: 1px solid #ddd;
+      padding: 8px;
+      line-height: 20px;
+      text-align: left;
+      vertical-align: top;
+      border-top: 1px solid #ddd; }
+    .an-container table th {
+      font-weight: bold; }
+    .an-container table thead th {
+      vertical-align: bottom; }
+    .an-container table caption + thead tr:first-child th,
+    .an-container table caption + thead tr:first-child td,
+    .an-container table colgroup + thead tr:first-child th,
+    .an-container table colgroup + thead tr:first-child td,
+    .an-container table thead:first-child tr:first-child th,
+    .an-container table thead:first-child tr:first-child td {
+      border-top: 0; }
+    .an-container table tbody + tbody {
+      border-top: 2px solid #ddd; }
+    .an-container table .table {
+      background-color: white; }

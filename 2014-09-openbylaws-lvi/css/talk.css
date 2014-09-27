@@ -3,6 +3,10 @@
   font-style: normal;
 }
 
+.reveal ul.fa-ul {
+  list-style-type: none;
+}
+
 .reveal section img.plain {
   border: 0px;
   box-shadow: none;
@@ -71,5 +75,25 @@ ol.unstyled li {
 
 /* talk specific stuff */
 
-.reveal .contact-details {
+.reveal section img.badge {
+  border: 0px;
+  box-shadow: none;
+  float: right;
+  width: 2em;
+  height: auto;
+}
+
+.reveal .an-container {
+  font-size: 14pt;
+  line-height: 1.3em;
+}
+
+.reveal .an-container a {
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.reveal .an-container h3 {
+  font-size: 18pt;
 }
