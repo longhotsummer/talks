@@ -76,9 +76,12 @@ ol.unstyled li {
 /* talk specific stuff */
 
 .reveal section img.badge {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+
   border: 0px;
   box-shadow: none;
-  float: right;
   width: 2em;
   height: auto;
 }
