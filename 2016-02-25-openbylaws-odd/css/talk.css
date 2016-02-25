@@ -1,0 +1,103 @@
+.reveal i.fa {
+  font-family: 'FontAwesome';
+  font-style: normal;
+}
+
+.reveal ul.fa-ul {
+  list-style-type: none;
+}
+
+.reveal section img.plain {
+  border: 0px;
+  box-shadow: none;
+}
+
+.reveal .backgrounds .slide-background[style*='background-image'] {
+  opacity: 0.1;
+}
+
+.print-pdf .slide-background[style*='background-image'] {
+  display: none
+}
+
+ul.unstyled li,
+ol.unstyled li {
+  list-style: none
+}
+
+
+/* columns */
+.column-row {
+    clear: both;
+}
+.column-full,
+.column-half,
+.column-third,
+.column-two-thirds,
+.column-quarter,
+.column-three-quarters,
+.column-golden-wide,
+.column-golden-narrow {
+    float: left;
+    margin: 0 2% 0 0;
+}
+.header-for-columns {
+    margin: 0 2% 1em 0;
+}
+.column-full {
+    width: 98%;
+}
+.column-half {
+    width: 48%;
+}
+.column-third {
+    width: 31%;
+}
+.column-two-thirds {
+    width: 65%;
+}
+.column-quarter {
+    width: 23%;
+}
+.column-three-quarters {
+    width: 73%;
+}
+.column-golden-wide {
+    width: 58%;
+}
+.column-golden-narrow {
+    width: 38%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* talk specific stuff */
+
+.reveal section.badge {
+  background-image: url("../media/openbylaws-400px-transparent.png");
+  background-size: 2em;
+  background-position: 100% 30px;
+  background-repeat: no-repeat;
+}
+
+.reveal section.badge-c4sa {
+  background-image: url("../media/c4sa-logo.png");
+  background-size: 3em;
+}
+
+.reveal .an-container {
+  font-size: 14pt;
+  line-height: 1.3em;
+}
+
+.reveal .an-container a {
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.reveal .an-container h3 {
+  font-size: 18pt;
+}
