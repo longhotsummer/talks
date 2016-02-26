@@ -101,3 +101,10 @@ ol.unstyled li {
 .reveal .an-container h3 {
   font-size: 18pt;
 }
+
+.intro-slide img {
+  padding-right: 0.5em;
+
+  height: 4em;
+  width: auto;
+}
