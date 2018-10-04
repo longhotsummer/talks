@@ -14,6 +14,10 @@ Cloud-based editor<br>that simplifies the process of<br>capturing, consolidating
 
 ---
 
+<!-- .slide: data-background-image="images/process.png" data-background-size="contain" data-background-opacity="1.0" -->
+
+---
+
 ### Efficiently publish
 
 legislation that is
@@ -43,7 +47,7 @@ also
 
 ### National Legislation in South Africa
 
-<img src="images/saflii-screenshot.png" style="border: 0px; background: transparent">
+<img src="images/saflii-screenshot.png" style="border: 0px">
 
 ---
 
@@ -51,33 +55,103 @@ also
 
 <img src="images/bylaws-screenshot.png" style="border: 0px; background: transparent">
 
----
-
-adaptable to traditions
-
-screenshot of polish legislation
-plugin system
+Notes: residents, staff, law enforcement
 
 ---
 
-dev process
+### Adaptable to local legal traditions
+
+<img src="images/indigo-polish.jpg" style="border: 0px">
+
+Notes: plugin system
 
 ---
 
-akn: benefits, uses, (outputs)
+## Agile Development process
+
+Consultation with expert legal editors <!-- .element: class="fragment" -->
+
+Regular user testing, variety of experience <!-- .element: class="fragment" -->
+
+Daily updates based on feedback <!-- .element: class="fragment" -->
+
+Modern open source software pipeline <!-- .element: class="fragment" -->
+
+Notes: opportunities to use tech to improve a process
 
 ---
 
-challenges with akn and its workarounds
+## ❤️ Akoma Ntoso ❤️
+
+Foundation for rich, varied outputs:
+
+Desktop, mobile, PDF, ePUB, ...
 
 ---
 
-target: back office, productivity, workflows
+## 😱 Akoma Ntoso 😱
+
+Complex and scary!
+
+```xml
+<blockList id="section-1.1.list15" refersTo="#term-hotel">
+  <listIntroduction>"<def refersTo="#term-hotel">hotel</def>" means a property used as temporary residential accommodation for overnight guests where lodging or meals are provided for compensation, and includes:</listIntroduction>
+    <item id="section-1.1.list15.a">
+      <num>(a)</num>
+      <p>a <term refersTo="#term-restaurant" id="trm20">restaurant</term> or restaurants forming part of a hotel;</p>
+    </item>
+  </listIntroduction>
+</blockList>
+```
 
 ---
 
-apis
+## 😁 Akoma Ntoso 😁
+
+### User-friendly
+
+vs
+
+### Expressive
+
+vs
+
+### Adaptable
+
+Notes: optimised for (pdf) import
 
 ---
 
-wrap up
+Indigo is for
+
+## editing and managing
+
+not for
+
+## reading or using
+
+legislation
+
+Notes: back office, productivity, workflows
+
+---
+
+## Indigo<br>enables innovation
+
+by publishing
+
+## legislation as<br>building blocks
+
+---
+
+<!-- .slide: data-background-image="images/apis.png" data-background-size="contain" data-background-opacity="1.0" -->
+
+Notes: apis
+
+---
+
+## Thank you
+
+openup.org.za/indigo
+
+greg@openup.org.za
