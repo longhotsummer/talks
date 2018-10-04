@@ -54,15 +54,15 @@ also
 
 ---
 
-### National Legislation in South Africa
+#### National Legislation in South Africa
 
-<img src="images/saflii-screenshot.png" style="border: 0px">
+<img src="images/saflii-screenshot.png" style="border: 0px; max-height: 500px">
 
 ---
 
 ### National Legislation in Tanzania
 
-<img src="images/tanzlii-screenshot.png" style="border: 0px">
+<img src="images/tanzlii-screenshot.png" style="border: 0px; max-height: 500px">
 
 ---
 
