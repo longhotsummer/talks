@@ -41,7 +41,16 @@ also
 
 ### productivity
 ### diverse legal traditions
+### multiple languages
 ### continuous improvement
+
+---
+
+<!-- .slide: data-background-image="images/indigo-screenshot2.png" data-background-size="contain" data-background-opacity="1.0" -->
+
+---
+
+<!-- .slide: data-background-image="images/indigo-screenshot1.png" data-background-size="contain" data-background-opacity="1.0" -->
 
 ---
 
@@ -51,19 +60,17 @@ also
 
 ---
 
+### National Legislation in Tanzania
+
+<img src="images/tanzlii-screenshot.png" style="border: 0px">
+
+---
+
 ### Municipal By-laws in South Africa
 
 <img src="images/bylaws-screenshot.png" style="border: 0px; background: transparent">
 
 Notes: residents, staff, law enforcement
-
----
-
-### Adaptable to local legal traditions
-
-<img src="images/indigo-polish.jpg" style="border: 0px">
-
-Notes: plugin system
 
 ---
 
@@ -78,6 +85,14 @@ Daily updates based on feedback <!-- .element: class="fragment" -->
 Modern open source software pipeline <!-- .element: class="fragment" -->
 
 Notes: opportunities to use tech to improve a process
+
+---
+
+### Adaptable to local legal traditions
+
+<img src="images/indigo-polish.jpg" style="border: 0px">
+
+Notes: plugin system
 
 ---
 
